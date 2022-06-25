@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_arzamas"
+            android:icon="@drawable/city"
+            android:title="Аззамас" />
+        <item
+            android:id="@+id/nav_boldino"
+            android:icon="@drawable/city"
+            android:title="Большое Болдино" />
+        <item
+            android:id="@+id/nav_ivanovo"
+            android:icon="@drawable/city"
+            android:title="Иваново" />
+        <item
+            android:id="@+id/nav_nn"
+            android:icon="@drawable/city"
+            android:title="Нижний Новгород" />
+        <item
+            android:id="@+id/nav_peshelan"
+            android:icon="@drawable/city"
+            android:title="Пешелань" />
+    </group>
+</menu>

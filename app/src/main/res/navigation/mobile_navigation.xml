@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.test_nat.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_nn"
+        android:name="com.example.test_nat.ui.nn.NnFragment"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/nav_arzamas"
+        android:name="com.example.test_nat.ui.arzamas.ArzamasFragment"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/nav_boldino"
+        android:name="com.example.test_nat.ui.boldino.BoldinoFragment"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/nav_ivanovo"
+        android:name="com.example.test_nat.ui.ivanovo.IvanovoFragment"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/nav_peshelan"
+        android:name="com.example.test_nat.ui.peshelan.PechelanFragment"
+        tools:layout="@layout/fragment_test" />
+
+</navigation>
