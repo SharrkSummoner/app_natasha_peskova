@@ -34,7 +34,7 @@ public class ArzamasFragment extends Fragment {
         linearMuz1.setBackgroundResource(R.drawable.cornen_radius);
         textMuz1.setText("Арзамасский историко - художественный музей");
         imageMuz1.setImageResource(R.drawable.arzamasmuz1);
-        
+
         return view;
     }
 
